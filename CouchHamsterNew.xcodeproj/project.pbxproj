@@ -7,18 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233391DF2BFDE6700056AAE2 /* HealthHamsterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233391DE2BFDE6700056AAE2 /* HealthHamsterView.swift */; };
+		233391E12BFDE81F0056AAE2 /* CalendarStreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233391E02BFDE81F0056AAE2 /* CalendarStreakView.swift */; };
+		233391E32BFDEDEF0056AAE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233391E22BFDEDEF0056AAE2 /* SettingsView.swift */; };
+		233391E52BFE008E0056AAE2 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233391E42BFE008E0056AAE2 /* CounterView.swift */; };
+		233391E82C038ED70056AAE2 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233391E72C038ED70056AAE2 /* DataStore.swift */; };
+		233391EA2C0390940056AAE2 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233391E92C0390930056AAE2 /* Achievement.swift */; };
 		2366E40E2BF7BDE100D188A3 /* CouchHamsterNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366E40D2BF7BDE100D188A3 /* CouchHamsterNewApp.swift */; };
 		2366E4102BF7BDE100D188A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366E40F2BF7BDE100D188A3 /* ContentView.swift */; };
 		2366E4122BF7BDE200D188A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2366E4112BF7BDE200D188A3 /* Assets.xcassets */; };
 		2366E4152BF7BDE200D188A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2366E4142BF7BDE200D188A3 /* Preview Assets.xcassets */; };
+		2366E4222BF7BE0800D188A3 /* WatchCouchHamsterNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366E4212BF7BE0800D188A3 /* WatchCouchHamsterNewApp.swift */; };
+		2366E4262BF7BE0900D188A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2366E4252BF7BE0900D188A3 /* Assets.xcassets */; };
+		2366E4292BF7BE0900D188A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2366E4282BF7BE0900D188A3 /* Preview Assets.xcassets */; };
+		2366E42C2BF7BE0900D188A3 /* WatchCouchHamsterNew Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2366E41F2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2366E4322BF7C58B00D188A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366E4312BF7C58B00D188A3 /* Color.swift */; };
+		238DF0AF2C041E9F009799D3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DF0AE2C041E9F009799D3 /* MainViewModel.swift */; };
+		238DF0B32C04223E009799D3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DF0B22C04223E009799D3 /* SettingsViewModel.swift */; };
+		238DF0B72C0423D7009799D3 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DF0B62C0423D7009799D3 /* CounterViewModel.swift */; };
+		238DF0B92C0427BC009799D3 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DF0B82C0427BC009799D3 /* GoalType.swift */; };
+		23CD20DF2BFC855B0037490F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CD20DE2BFC855B0037490F /* MainView.swift */; };
+		23CD20E12BFC950B0037490F /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CD20E02BFC950B0037490F /* AchievementView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2366E42A2BF7BE0900D188A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2366E4022BF7BDE100D188A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2366E41E2BF7BE0800D188A3;
+			remoteInfo = "WatchCouchHamsterNew Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2366E4302BF7BE0900D188A3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2366E42C2BF7BE0900D188A3 /* WatchCouchHamsterNew Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		233391DE2BFDE6700056AAE2 /* HealthHamsterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHamsterView.swift; sourceTree = "<group>"; };
+		233391E02BFDE81F0056AAE2 /* CalendarStreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStreakView.swift; sourceTree = "<group>"; };
+		233391E22BFDEDEF0056AAE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		233391E42BFE008E0056AAE2 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		233391E62C0351F50056AAE2 /* WatchCouchHamsterNew Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchCouchHamsterNew Watch App.entitlements"; sourceTree = "<group>"; };
+		233391E72C038ED70056AAE2 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		233391E92C0390930056AAE2 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		2366E40A2BF7BDE100D188A3 /* CouchHamsterNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchHamsterNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2366E40D2BF7BDE100D188A3 /* CouchHamsterNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchHamsterNewApp.swift; sourceTree = "<group>"; };
 		2366E40F2BF7BDE100D188A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2366E4112BF7BDE200D188A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2366E4142BF7BDE200D188A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2366E41F2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCouchHamsterNew Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2366E4212BF7BE0800D188A3 /* WatchCouchHamsterNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCouchHamsterNewApp.swift; sourceTree = "<group>"; };
+		2366E4252BF7BE0900D188A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2366E4282BF7BE0900D188A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2366E4312BF7C58B00D188A3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		238DF0AE2C041E9F009799D3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		238DF0B22C04223E009799D3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		238DF0B62C0423D7009799D3 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+		238DF0B82C0427BC009799D3 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		23CD20DE2BFC855B0037490F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		23CD20E02BFC950B0037490F /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +88,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2366E41C2BF7BE0800D188A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233391EB2C0391250056AAE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23CD20E02BFC950B0037490F /* AchievementView.swift */,
+				233391E02BFDE81F0056AAE2 /* CalendarStreakView.swift */,
+				233391DE2BFDE6700056AAE2 /* HealthHamsterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2366E4012BF7BDE100D188A3 = {
 			isa = PBXGroup;
 			children = (
 				2366E40C2BF7BDE100D188A3 /* CouchHamsterNew */,
+				2366E4202BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App */,
 				2366E40B2BF7BDE100D188A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2366E40A2BF7BDE100D188A3 /* CouchHamsterNew.app */,
+				2366E41F2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +145,76 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2366E4202BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				233391E62C0351F50056AAE2 /* WatchCouchHamsterNew Watch App.entitlements */,
+				238DF0B42C042328009799D3 /* ui */,
+				23DE26D52BF89B5B00BCF779 /* Model */,
+				2366E4212BF7BE0800D188A3 /* WatchCouchHamsterNewApp.swift */,
+				2366E4252BF7BE0900D188A3 /* Assets.xcassets */,
+				2366E4272BF7BE0900D188A3 /* Preview Content */,
+				2366E4312BF7C58B00D188A3 /* Color.swift */,
+			);
+			path = "WatchCouchHamsterNew Watch App";
+			sourceTree = "<group>";
+		};
+		2366E4272BF7BE0900D188A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2366E4282BF7BE0900D188A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		238DF0B02C0420FF009799D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				23CD20DE2BFC855B0037490F /* MainView.swift */,
+				238DF0AE2C041E9F009799D3 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		238DF0B12C0421CC009799D3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				233391E22BFDEDEF0056AAE2 /* SettingsView.swift */,
+				238DF0B22C04223E009799D3 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		238DF0B42C042328009799D3 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				238DF0B52C0423C3009799D3 /* Counter */,
+				238DF0B12C0421CC009799D3 /* Settings */,
+				238DF0B02C0420FF009799D3 /* Main */,
+				233391EB2C0391250056AAE2 /* View */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		238DF0B52C0423C3009799D3 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				233391E42BFE008E0056AAE2 /* CounterView.swift */,
+				238DF0B62C0423D7009799D3 /* CounterViewModel.swift */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		23DE26D52BF89B5B00BCF779 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				233391E72C038ED70056AAE2 /* DataStore.swift */,
+				233391E92C0390930056AAE2 /* Achievement.swift */,
+				238DF0B82C0427BC009799D3 /* GoalType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,14 +225,33 @@
 				2366E4062BF7BDE100D188A3 /* Sources */,
 				2366E4072BF7BDE100D188A3 /* Frameworks */,
 				2366E4082BF7BDE100D188A3 /* Resources */,
+				2366E4302BF7BE0900D188A3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2366E42B2BF7BE0900D188A3 /* PBXTargetDependency */,
+			);
+			name = CouchHamsterNew;
+			productName = CouchHamsterNew;
+			productReference = 2366E40A2BF7BDE100D188A3 /* CouchHamsterNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2366E41E2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2366E42D2BF7BE0900D188A3 /* Build configuration list for PBXNativeTarget "WatchCouchHamsterNew Watch App" */;
+			buildPhases = (
+				2366E41B2BF7BE0800D188A3 /* Sources */,
+				2366E41C2BF7BE0800D188A3 /* Frameworks */,
+				2366E41D2BF7BE0800D188A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CouchHamsterNew;
-			productName = CouchHamsterNew;
-			productReference = 2366E40A2BF7BDE100D188A3 /* CouchHamsterNew.app */;
+			name = "WatchCouchHamsterNew Watch App";
+			productName = "WatchCouchHamsterNew Watch App";
+			productReference = 2366E41F2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +265,9 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					2366E4092BF7BDE100D188A3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2366E41E2BF7BE0800D188A3 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -116,6 +286,7 @@
 			projectRoot = "";
 			targets = (
 				2366E4092BF7BDE100D188A3 /* CouchHamsterNew */,
+				2366E41E2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +298,15 @@
 			files = (
 				2366E4152BF7BDE200D188A3 /* Preview Assets.xcassets in Resources */,
 				2366E4122BF7BDE200D188A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2366E41D2BF7BE0800D188A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2366E4292BF7BE0900D188A3 /* Preview Assets.xcassets in Resources */,
+				2366E4262BF7BE0900D188A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +322,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2366E41B2BF7BE0800D188A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CD20DF2BFC855B0037490F /* MainView.swift in Sources */,
+				233391E32BFDEDEF0056AAE2 /* SettingsView.swift in Sources */,
+				238DF0B72C0423D7009799D3 /* CounterViewModel.swift in Sources */,
+				233391DF2BFDE6700056AAE2 /* HealthHamsterView.swift in Sources */,
+				23CD20E12BFC950B0037490F /* AchievementView.swift in Sources */,
+				233391E12BFDE81F0056AAE2 /* CalendarStreakView.swift in Sources */,
+				2366E4322BF7C58B00D188A3 /* Color.swift in Sources */,
+				2366E4222BF7BE0800D188A3 /* WatchCouchHamsterNewApp.swift in Sources */,
+				238DF0B92C0427BC009799D3 /* GoalType.swift in Sources */,
+				238DF0B32C04223E009799D3 /* SettingsViewModel.swift in Sources */,
+				233391E82C038ED70056AAE2 /* DataStore.swift in Sources */,
+				233391E52BFE008E0056AAE2 /* CounterView.swift in Sources */,
+				233391EA2C0390940056AAE2 /* Achievement.swift in Sources */,
+				238DF0AF2C041E9F009799D3 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2366E42B2BF7BE0900D188A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2366E41E2BF7BE0800D188A3 /* WatchCouchHamsterNew Watch App */;
+			targetProxy = 2366E42A2BF7BE0900D188A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2366E4162BF7BDE200D188A3 /* Debug */ = {
@@ -267,6 +476,7 @@
 		2366E4192BF7BDE200D188A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +506,7 @@
 		2366E41A2BF7BDE200D188A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +533,72 @@
 			};
 			name = Release;
 		};
+		2366E42E2BF7BE0900D188A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchCouchHamsterNew Watch App/WatchCouchHamsterNew Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCouchHamsterNew Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BHS88Y2WBP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchCouchHamsterNew;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app need to read your health data to operate";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = None.CouchHamsterNew;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.CouchHamsterNew.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		2366E42F2BF7BE0900D188A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchCouchHamsterNew Watch App/WatchCouchHamsterNew Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCouchHamsterNew Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BHS88Y2WBP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchCouchHamsterNew;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app need to read your health data to operate";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = None.CouchHamsterNew;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.CouchHamsterNew.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +616,15 @@
 			buildConfigurations = (
 				2366E4192BF7BDE200D188A3 /* Debug */,
 				2366E41A2BF7BDE200D188A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2366E42D2BF7BE0900D188A3 /* Build configuration list for PBXNativeTarget "WatchCouchHamsterNew Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2366E42E2BF7BE0900D188A3 /* Debug */,
+				2366E42F2BF7BE0900D188A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
